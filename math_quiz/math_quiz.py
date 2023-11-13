@@ -14,8 +14,8 @@ def operation_choice():
 
 def selecting_operation(number1, number2, operation):
     p = f"{number1} {operation} {number2}"
-    if operation == '+': a = number1 - number2
-    elif operation == '-': a = number1 + number2
+    if operation == '+': a = number1 +number2
+    elif operation == '-': a = number1 - number2
     else: a = number1 * number2
     return p, a
 
